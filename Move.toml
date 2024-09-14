@@ -1,0 +1,13 @@
+[package]
+name = "CreditUnion"
+version = "0.1.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+
+[addresses]
+credit_union = "_"
+
+[dev-addresses]
+
+[dev-dependencies]
